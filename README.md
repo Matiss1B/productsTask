@@ -7,20 +7,18 @@
 ### 4.Product search
 ### 5.Product filter
 # Main Tasks 
-Create a product filter where you can select all products according to at multiple criteria.
-It should be possible to sort from the cheapest to the most expensive and vice versa.
-As well as sort by date from newest to oldest and vice versa.
-Create an admin page where you can add products:
+### 1.Create a product filter where you can select all products according to at multiple criteria.
+### 2.It should be possible to sort from the cheapest to the most expensive and vice versa.
+### 3.And sort by date from newest to oldest and vice versa.
+### Create an admin page where you can add products:
 ##### Product name
-Product description
-Product image
-Date added
-Category
-Weight
-The amount
-Is there on site
-Balance in stock
-Color
-Size
-Delivery time
-The price
+##### Product description
+##### Product image
+##### Date added
+##### Category
+##### Weight
+##### The amount
+##### Is there on site
+##### Color
+##### Size
+##### Price
