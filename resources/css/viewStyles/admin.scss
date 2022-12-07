@@ -1,0 +1,32 @@
+@import "../variables";
+.insertBox {
+    font-family: $font1;
+    background-color: rgb(247, 247, 247);
+    h1 {
+        font-size: 1.5rem;
+    }
+    input,
+    select {
+        width: 12rem;
+        height: 1.5rem;
+        border: none;
+    }
+    input:focus {
+        outline: none;
+        background-color: rgba($color: #00ff37, $alpha: 0.3);
+    }
+    select:focus {
+        outline: none;
+        background-color: rgba($color: #00ff37, $alpha: 0.3);
+    }
+    textarea:focus {
+        outline: none;
+        background-color: rgba($color: #00ff37, $alpha: 0.3);
+    }
+    textarea {
+        border: none;
+    }
+    .imgInput {
+        width: 100%;
+    }
+}

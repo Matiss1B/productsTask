@@ -1,0 +1,74 @@
+@import "../variables";
+.loginDiv {
+    height: 100%;
+}
+.login {
+    font-family: $font1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    h1 {
+        color: $green;
+    }
+    input {
+        width: 12rem;
+        height: 1.5rem;
+        border: 1px solid $grey2;
+    }
+    input:focus {
+        outline: none;
+        border: 1px solid rgba($color: #00ff37, $alpha: 0.3);
+    }
+    p {
+        color: $green;
+        cursor: pointer;
+    }
+    p:hover {
+        color: $fontgrey;
+    }
+}
+.register {
+    font-family: $font1;
+    background-color: $green;
+    h1 {
+        color: white;
+    }
+    .btn {
+        background-color: white;
+        border: 2px solid grey;
+        font-size: 1.2rem;
+        color: $green;
+        padding: 0.5rem 2rem;
+
+        &:hover {
+            transition: 0.3s ease-in-out;
+            border: 2px solid white;
+            background: $green;
+            color: white;
+        }
+    }
+    label {
+        color: white;
+    }
+    input {
+        width: 12rem;
+        height: 1.5rem;
+        border: 1px solid grey;
+    }
+    input:focus {
+        outline: none;
+        border: 1px solid black;
+    }
+    p {
+        color: $fontgrey;
+        cursor: pointer;
+    }
+    p:hover {
+        color: white;
+    }
+}
+.login-logo {
+    background-color: $green;
+}
+.colorWhite {
+    background-color: white;
+}

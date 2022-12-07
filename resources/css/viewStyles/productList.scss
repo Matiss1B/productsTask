@@ -1,0 +1,248 @@
+@import "../variables";
+.search {
+    i {
+        color: $green;
+    }
+}
+#filter {
+    cursor: pointer;
+    font-size: 2rem;
+    color: $green;
+}
+#filter:hover {
+    font-size: 2rem;
+    color: $fontgrey;
+}
+.single-product {
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+        rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    color: $fontgrey;
+    background-color: white;
+    flex: 30%;
+    img {
+        width: 90%;
+        height: 90%;
+    }
+    label {
+        color: $green;
+        font-size: 1.1rem;
+    }
+    .x {
+        color: $green;
+        font-size: 1.5rem;
+    }
+    .btn {
+        background-color: transparent;
+        font-size: 1.2rem;
+        border: 2px solid $green;
+        color: $green;
+        padding: 0.5rem 2rem;
+
+        &:hover {
+            transition: 0.3s ease-in-out;
+            background: $green;
+            color: white;
+        }
+    }
+}
+.popUp {
+    position: absolute;
+    width: 60%;
+    z-index: 3;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+        rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    color: $fontgrey;
+    background-color: white;
+    img {
+        width: 90%;
+        height: 90%;
+    }
+    label {
+        color: $green;
+        font-size: 1.1rem;
+    }
+    .x {
+        color: $green;
+        font-size: 1.5rem;
+    }
+    .btn {
+        background-color: transparent;
+        font-size: 1.2rem;
+        border: 2px solid $green;
+        color: $green;
+        padding: 0.5rem 2rem;
+
+        &:hover {
+            transition: 0.3s ease-in-out;
+            background: $green;
+            color: white;
+        }
+    }
+}
+.btn {
+    background-color: transparent;
+    font-size: 1.2rem;
+    border: 2px solid $green;
+    color: $green;
+    padding: 0.5rem 2rem;
+
+    &:hover {
+        transition: 0.3s ease-in-out;
+        background: $green;
+        color: white;
+    }
+}
+.single-product:hover {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(3px);
+    z-index: 2;
+}
+.main1 {
+    box-sizing: border-box;
+    background-color: $grey3;
+}
+// #popUp {
+//     width: 60%;
+//     z-index: 3;
+//     position: fixed;
+//     top: 50%;
+//     left: 50%;
+//     transform: translate(-50%, -50%);
+// }
+.popText {
+    font-family: $font1;
+    .title {
+        font-size: 1.2rem;
+    }
+}
+.popImg {
+    width: 50%;
+    img {
+        width: 80%;
+        height: 50%;
+    }
+}
+.pop-p {
+    font-size: 1.3rem;
+    color: $fontgrey;
+}
+//BUTTON
+.title-div {
+    background-image: url("https://i.pinimg.com/originals/49/97/19/4997192854fdaf2d13cf84437e4fcf1b.jpg");
+    // position: fixed;
+    // z-index: -1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 90%;
+    height: 80%;
+    .box {
+        height: 100%;
+        width: 50%;
+        background-color: $greyrbga;
+        font-family: $font1;
+        text-align: center;
+    }
+    .box1 {
+        h1 {
+            color: $green;
+            font-size: 7rem;
+            font-family: $font1;
+        }
+    }
+}
+.box2 {
+    h1 {
+        color: $fontgrey;
+    }
+}
+//SideBar
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    font-family: $font1;
+    z-index: 4;
+    top: 0;
+    right: 0;
+    background-color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+    h1 {
+        font-size: 2rem;
+        color: $green;
+    }
+    .title {
+        color: $green;
+    }
+    .closeBtn {
+        color: $green;
+        font-size: 2rem;
+        cursor: pointer;
+    }
+    .closeBtn:hover {
+        color: $fontgrey;
+        font-size: 2rem;
+    }
+
+    input[type="checkbox"] {
+        accent-color: $green;
+    }
+    .price {
+        input {
+            width: 30px;
+        }
+    }
+    .btn {
+        background-color: transparent;
+        font-size: 1rem;
+        border: 1px solid $green;
+        color: $green;
+        padding: 0.5rem 1rem;
+
+        &:hover {
+            transition: 0.5s ease-in-out;
+            background: $green;
+            color: white;
+        }
+    }
+    .btn2 {
+        background-color: $green;
+        font-size: 1rem;
+        border: 1px solid $green;
+        color: white;
+        padding: 0.5rem 1rem;
+
+        &:hover {
+            transition: 0.5s ease-in-out;
+            background: white;
+            color: $green;
+        }
+    }
+}
+@media screen and (max-width: 800px) {
+    .single-product {
+        flex: 70%;
+    }
+    #popUp {
+        width: 90%;
+    }
+}
+@media screen and (max-width: 1000px) {
+    #filter4 {
+        font-size: 1.4rem;
+    }
+}

@@ -1,0 +1,94 @@
+.listBox {
+    background-color: $grey;
+}
+.header {
+    z-index: 1;
+    position: fixed;
+    h1 {
+        font-family: $font1;
+        color: $green;
+    }
+    a {
+        font-family: $font1;
+        color: $fontgrey;
+        font-size: 1.5rem;
+        cursor: pointer;
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration: underline 3px solid $green;
+    }
+}
+h1 {
+    color: $fontgrey;
+    font-size: 2rem;
+    font-family: $font1;
+}
+.table {
+    border-collapse: collapse;
+    font-family: $font1;
+    td {
+        background-color: $grey2;
+        color: $fontgrey;
+        text-align: center;
+        img {
+            width: 90px;
+            height: 80px;
+        }
+    }
+    tr:hover {
+        background-color: rgb(150, 150, 138);
+    }
+    th {
+        font-size: 1.1rem;
+        color: white;
+        background-color: rgb(167, 166, 166);
+    }
+    td,
+    th {
+        padding: 10px;
+    }
+    .circle-x {
+        color: red;
+    }
+    .circle-check {
+        color: green;
+    }
+    .edit {
+        color: $fontgrey;
+        font-size: 1.1rem;
+    }
+    .edit:hover {
+        color: rgb(240, 240, 8);
+    }
+    .delete {
+        color: $fontgrey;
+        font-size: 1.1rem;
+    }
+    .delete:hover {
+        color: red;
+    }
+}
+.scrollbox-x {
+    overflow-x: scroll;
+    width: 100%;
+}
+.list-nav {
+    background-color: transparent;
+    label,
+    select,
+    input {
+        font-family: $font1;
+        background-color: transparent;
+    }
+    select,
+    input {
+        border: none;
+        border-bottom: 1px solid $fontgrey;
+    }
+    select,
+    input:focus {
+        outline: none;
+    }
+    position: sticky;
+}

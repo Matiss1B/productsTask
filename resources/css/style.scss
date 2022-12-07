@@ -1,0 +1,42 @@
+@import "bootsrtap";
+@import "variables";
+@import "viewStyles/list";
+@import "viewStyles/admin";
+@import "viewStyles/productList";
+@import "viewStyles/login";
+
+body {
+    margin: 0;
+    padding: 0;
+}
+.mainDiv {
+    min-height: 100vh;
+}
+.footer {
+    background-color: $grey;
+    bottom: 0;
+    h1 {
+        font-family: $font1;
+        color: $green;
+        font-size: 1.1rem;
+    }
+    p {
+        font-family: $font1;
+        color: grey;
+    }
+}
+.logo {
+    width: 30px;
+    height: 30px;
+}
+.footer-logo {
+    font-size: 10px;
+    img {
+        width: 20px;
+        height: 20px;
+    }
+    background-color: $fontgrey;
+    h1 {
+        color: $grey;
+    }
+}
